@@ -14,7 +14,9 @@
             "args": [],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            // チュートリアル↓に従って、 internalConsole から integratedTerminal に変更
+            // https://learn.microsoft.com/ja-jp/dotnet/core/tutorials/debugging-with-visual-studio-code?pivots=dotnet-8-0#set-up-for-terminal-input
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
