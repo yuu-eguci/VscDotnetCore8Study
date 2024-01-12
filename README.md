@@ -12,6 +12,7 @@ dotnet --version
 dotnet new gitignore
 
 # 🎉 new console でプロジェクト作成
+# --use-program-main: エントリポイントを Program.Main にするってこと = Program.cs がクラスベースになる
 dotnet new console --framework net8.0 --use-program-main
 
 # 実行できる!
@@ -36,4 +37,12 @@ dotnet publish --configuration Release
 # 2. コマンド プロンプトから dotnet VscDotnetCore8Study.dll コマンドを実行
 (cd bin/Release/net8.0/publish; dotnet VscDotnetCore8Study.dll)
 
+# publish フォルダに作られるもののうち……
+# これがないと動かないもの
+# - App 名のファイル: 実行可能ファイルね。
+# - dll ファイル: これはアセンブリだ。
+# - runtimeconfig.json ファイル: 使用する .NET Core ランタイムのバージョンとか。
+# これがなくても動くもの
+# - deps.json ファイル: アプリケーションの依存関係の詳細。
+# - pdb ファイル: デバッグ時に役立つが、アプリケーションの実行には不要。
 ```
