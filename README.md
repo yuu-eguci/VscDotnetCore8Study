@@ -15,6 +15,10 @@ https://learn.microsoft.com/ja-jp/dotnet/core/tutorials/with-visual-studio-code
 dotnet コマンドを使ってプロジェクトを作って、 dotnet コマンドを使って実行、ビルド、発行する。
 あと VSCode でブレークポイントを使ってデバッグする方法も書いてある。
 
+Exe を Windows で動かすためにはこれ↓が必要。
+
+https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.1-windows-x64-installer
+
 ## Notes in Progress
 
 ```bash
