@@ -3,6 +3,20 @@ VSCode Dotnet Core 8 Study!
 
 Visual Studio Code で .NET コンソール アプリケーションを作成するチュートリアルを見つけてワオってなったのでやってみようぜ!
 
+https://learn.microsoft.com/ja-jp/dotnet/core/tutorials/with-visual-studio-code
+
+## Summary
+
+このチュートリアルは、単体のコンソールアプリを作るものだった。
+
+- Util クラスなどは範疇外ってこと
+- コンソールアプリ以外のプロジェクトがないから、ソリューションファイルも不要ってこと
+
+dotnet コマンドを使ってプロジェクトを作って、 dotnet コマンドを使って実行、ビルド、発行する。
+あと VSCode でブレークポイントを使ってデバッグする方法も書いてある。
+
+## Notes in Progress
+
 ```bash
 # バージョン
 dotnet --version
