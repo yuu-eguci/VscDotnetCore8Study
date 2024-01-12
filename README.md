@@ -20,4 +20,5 @@ dotnet run
 # ✨ Console.ReadLine を使うと入力を受け付けることができる
 
 # ✨ VSCode でもブレークポイントを使ってデバッグできる (integratedTerminal が必要っぽい)
+# ✨ デバッグ中に変数の値を変更する方法を記載
 ```
