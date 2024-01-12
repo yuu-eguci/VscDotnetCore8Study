@@ -21,4 +21,7 @@ dotnet run
 
 # ✨ VSCode でもブレークポイントを使ってデバッグできる (integratedTerminal が必要っぽい)
 # ✨ デバッグ中に変数の値を変更する方法を記載
+
+# ✨ リリース バージョンをビルドしてテストする (でも Release 用の設定はどう書くんだ?)
+dotnet run --configuration Release
 ```
