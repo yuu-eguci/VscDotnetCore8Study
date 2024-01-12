@@ -22,10 +22,18 @@ dotnet run
 # ✨ VSCode でもブレークポイントを使ってデバッグできる (integratedTerminal が必要っぽい)
 # ✨ デバッグ中に変数の値を変更する方法を記載
 
-# ✨ リリース バージョンをビルドしてテストする (でも Release 用の設定はどう書くんだ?)
+# ✨ リリース バージョンをビルドしてテストする (TODO: でも Release 用の設定はどう書くんだ?)
 dotnet run --configuration Release
 
 # 🚀 アプリを発行する
 # 既定のビルド構成は "デバッグ" であるため、このコマンドでは "リリース" ビルド構成を指定する
 dotnet publish --configuration Release
+
+# 📝 アプリを実行する
+# 実行方法は、以下の2通り
+# 1. 実行可能ファイルを使用する、
+(cd bin/Release/net8.0/publish; ./VscDotnetCore8Study)
+# 2. コマンド プロンプトから dotnet VscDotnetCore8Study.dll コマンドを実行
+(cd bin/Release/net8.0/publish; dotnet VscDotnetCore8Study.dll)
+
 ```
