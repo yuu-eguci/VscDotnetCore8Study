@@ -24,4 +24,8 @@ dotnet run
 
 # ✨ リリース バージョンをビルドしてテストする (でも Release 用の設定はどう書くんだ?)
 dotnet run --configuration Release
+
+# 🚀 アプリを発行する
+# 既定のビルド構成は "デバッグ" であるため、このコマンドでは "リリース" ビルド構成を指定する
+dotnet publish --configuration Release
 ```
